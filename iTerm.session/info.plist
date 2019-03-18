@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
+				<string>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -36,6 +36,16 @@
 		</array>
 		<key>2798749C-AE75-4B1F-A371-8AD0B07FC539</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F3B10E8-68CA-4FD3-9266-5026F08C49A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
@@ -83,6 +93,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4765F52B-4B74-406F-9B75-ED5FAECF3F4C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>314658F6-322F-4305-A18E-A088AF27EA96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</key>
 		<array>
 			<dict>
@@ -101,6 +124,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,6 +189,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F3B10E8-68CA-4FD3-9266-5026F08C49A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -244,7 +293,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>314658F6-322F-4305-A18E-A088AF27EA96</string>
+				<string>4765F52B-4B74-406F-9B75-ED5FAECF3F4C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -433,14 +482,35 @@
 				<key>matchcasesensitive</key>
 				<false/>
 				<key>matchmode</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>matchstring</key>
-				<string>^(auto|vertically|horizontally|same)+</string>
+				<string>same</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
+			<string>8F3B10E8-68CA-4FD3-9266-5026F08C49A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!!</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Run in new tab of iTerm</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>03ABAF05-305E-4772-AFB2-64E3C95ECA83</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -497,30 +567,30 @@
 							if paramWindow contains \"auto\" then
 								if (count of sessions) is 1 then
 									select first session
-									tell current session to set bexiopayrollaux to split vertically with profile profileName
+									tell current session to set newauxsession to split vertically with profile profileName
 								else if (count of sessions) mod 2 is 1 then
 									select last session
-									tell current session to set bexiopayrollaux to split horizontally with profile profileName
+									tell current session to set newauxsession to split horizontally with profile profileName
 								else
 									select first session
-									tell current session to set bexiopayrollaux to split horizontally with profile profileName
+									tell current session to set newauxsession to split horizontally with profile profileName
 								end if
 
 								tell current session
-									tell bexiopayrollaux to set name to paramSessionName
-									tell bexiopayrollaux to write text query
+									tell newauxsession to set name to paramSessionName
+									tell newauxsession to write text query
 								end tell
 							else
 								select first session
 								tell current session
 									if paramWindow contains \"horizontally\" then
-										set bexiopayrollaux to split horizontally with profile profileName 
-										tell bexiopayrollaux to set name to paramSessionName
-										tell bexiopayrollaux to write text query
+										set newauxsession to split horizontally with profile profileName 
+										tell newauxsession to set name to paramSessionName
+										tell newauxsession to write text query
 									else if paramWindow contains \"vertically\" then
-										set bexiopayrollaux to split vertically with profile profileName 
-										tell bexiopayrollaux to set name to paramSessionName
-										tell bexiopayrollaux to write text query
+										set newauxsession to split vertically with profile profileName 
+										tell newauxsession to set name to paramSessionName
+										tell newauxsession to write text query
 									else
 										set name to paramSessionName
 										write text query
@@ -598,40 +668,45 @@ end theSplit</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>!!</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Run in new tab of iTerm</string>
-				<key>withspace</key>
-				<true/>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(auto|vertically|horizontally)+</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>03ABAF05-305E-4772-AFB2-64E3C95ECA83</string>
+			<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{var:tab_position}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>newtab</string>
+				<key>seconds</key>
+				<string>{var:out_delay}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
+			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
-			<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+			<string>4765F52B-4B74-406F-9B75-ED5FAECF3F4C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>3</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -652,6 +727,46 @@ end theSplit</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>973DBF26-ACDF-4700-8011-CD5B34C32410</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>iterm</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>iTerm</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>ACC1178D-3AAD-4550-BACA-9E22E39822DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>newtab</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -680,27 +795,6 @@ end theSplit</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>iterm</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>iTerm</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>ACC1178D-3AAD-4550-BACA-9E22E39822DB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1050,26 +1144,25 @@ end theSplit</string>
 		<key>23D525EB-6528-4252-B2C9-FFDE948FA61F</key>
 		<dict>
 			<key>note</key>
-			<string>auto same
-vertically horizontally</string>
+			<string>auto vertically horizontally</string>
 			<key>xpos</key>
-			<integer>850</integer>
+			<integer>860</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>270</integer>
 		</dict>
 		<key>2798749C-AE75-4B1F-A371-8AD0B07FC539</key>
 		<dict>
 			<key>xpos</key>
 			<integer>730</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>360</integer>
 		</dict>
 		<key>2C933827-2D43-43C5-B2A6-D817EA4BCB90</key>
 		<dict>
 			<key>note</key>
 			<string>Kill session</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
@@ -1078,16 +1171,23 @@ vertically horizontally</string>
 			<key>note</key>
 			<string>same</string>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>230</integer>
 		</dict>
 		<key>314658F6-322F-4305-A18E-A088AF27EA96</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1190</integer>
+			<integer>1230</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>250</integer>
+		</dict>
+		<key>4765F52B-4B74-406F-9B75-ED5FAECF3F4C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1160</integer>
+			<key>ypos</key>
+			<integer>280</integer>
 		</dict>
 		<key>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</key>
 		<dict>
@@ -1110,10 +1210,17 @@ vertically horizontally</string>
 			<key>ypos</key>
 			<integer>720</integer>
 		</dict>
+		<key>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>930</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
 		<key>7260398F-8311-4BFC-BAF8-4E740DB0F281</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>730</integer>
 			<key>ypos</key>
 			<integer>570</integer>
 		</dict>
@@ -1144,12 +1251,21 @@ vertically horizontally</string>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
+		<key>8F3B10E8-68CA-4FD3-9266-5026F08C49A2</key>
+		<dict>
+			<key>note</key>
+			<string>same</string>
+			<key>xpos</key>
+			<integer>880</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
 		<key>934FD7DD-CD4E-4430-9EA1-CBA8C0E30CD0</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1190</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>390</integer>
 		</dict>
 		<key>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</key>
 		<dict>
@@ -1163,9 +1279,9 @@ vertically horizontally</string>
 			<key>note</key>
 			<string>newtab</string>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>310</integer>
 		</dict>
 		<key>ACC1178D-3AAD-4550-BACA-9E22E39822DB</key>
 		<dict>
@@ -1181,25 +1297,25 @@ vertically horizontally</string>
 			<key>note</key>
 			<string>Handle in iTerm</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>250</integer>
 		</dict>
 		<key>C269EDAF-E323-4119-A964-69D4C3ADF767</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>730</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>420</integer>
 		</dict>
 		<key>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</key>
 		<dict>
 			<key>note</key>
 			<string>newtab</string>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>860</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>360</integer>
 		</dict>
 		<key>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</key>
 		<dict>
@@ -1213,9 +1329,9 @@ vertically horizontally</string>
 			<key>note</key>
 			<string>Kill profile</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>390</integer>
 		</dict>
 		<key>EF0095BE-B90F-47CF-A840-086DB521AAFF</key>
 		<dict>
@@ -1229,9 +1345,9 @@ vertically horizontally</string>
 		<key>F85400B6-A000-4871-99D1-BE28145E16B4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>930</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>360</integer>
 		</dict>
 		<key>FD86E266-0BC3-4063-A610-0A5EA600BCFE</key>
 		<dict>
@@ -1244,7 +1360,9 @@ vertically horizontally</string>
 	<key>variables</key>
 	<dict>
 		<key>newtab_delay</key>
-		<string>1</string>
+		<string>5</string>
+		<key>out_delay</key>
+		<string>0</string>
 		<key>out_trigger</key>
 		<string>loop</string>
 		<key>out_workflow</key>
