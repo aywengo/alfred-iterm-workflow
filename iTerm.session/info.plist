@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>iTerm.session</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>03ABAF05-305E-4772-AFB2-64E3C95ECA83</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>973DBF26-ACDF-4700-8011-CD5B34C32410</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>23D525EB-6528-4252-B2C9-FFDE948FA61F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2798749C-AE75-4B1F-A371-8AD0B07FC539</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2C933827-2D43-43C5-B2A6-D817EA4BCB90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>67865561-6D99-40C7-9D3F-8DCB5A1E3F01</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2D468E1C-761A-4382-8310-395B4E70F96F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6B0A1936-373B-442F-A506-54FFDC0BF322</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7260398F-8311-4BFC-BAF8-4E740DB0F281</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2C933827-2D43-43C5-B2A6-D817EA4BCB90</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7D0F2564-0A5A-409A-BA17-BA7102C55F08</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>807D2620-2158-4E52-909A-973C35742907</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C269EDAF-E323-4119-A964-69D4C3ADF767</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8B86C450-731F-481C-AD27-BDB651EF96B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>973DBF26-ACDF-4700-8011-CD5B34C32410</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ACC1178D-3AAD-4550-BACA-9E22E39822DB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D468E1C-761A-4382-8310-395B4E70F96F</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string>Run in active iTerm tab</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>973DBF26-ACDF-4700-8011-CD5B34C32410</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Run in new tab</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C269EDAF-E323-4119-A964-69D4C3ADF767</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Kill all tabs of profile</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Kill session named</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B3820465-E788-4B0D-96B5-96EBDF133A45</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>314658F6-322F-4305-A18E-A088AF27EA96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C269EDAF-E323-4119-A964-69D4C3ADF767</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E629E28B-F0DF-4AE1-B324-F5DF1E9D7F3B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F85400B6-A000-4871-99D1-BE28145E16B4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E629E28B-F0DF-4AE1-B324-F5DF1E9D7F3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>934FD7DD-CD4E-4430-9EA1-CBA8C0E30CD0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EF0095BE-B90F-47CF-A840-086DB521AAFF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D468E1C-761A-4382-8310-395B4E70F96F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F85400B6-A000-4871-99D1-BE28145E16B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD86E266-0BC3-4063-A610-0A5EA600BCFE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C269EDAF-E323-4119-A964-69D4C3ADF767</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>aywengo</string>
+	<key>description</key>
+	<string>Small workflow to help manage sessions in iTerm 3.0+</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>iTerm.session</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>iterm_action</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Run in iTerm</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7D0F2564-0A5A-409A-BA17-BA7102C55F08</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>loop</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Hero</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!&gt;</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Run in active iTerm tab</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EF0095BE-B90F-47CF-A840-086DB521AAFF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(auto|vertically|horizontally|same)+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>tab_position</key>
+					<string>same</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2D468E1C-761A-4382-8310-395B4E70F96F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set params to theSplit(q, "|||") of me
+	set query to first item of params
+	set profileName to second item of params
+	set paramSessionName to third item of params
+	set paramWindow to fourth item of params
+
+
+	if application "iTerm2" is running or application "iTerm" is running then
+		run script "
+			on run {query, profileName, paramSessionName, paramWindow}
+				tell application \"iTerm\"
+					activate
+					try
+						select first window
+					on error
+						create window with profile profileName
+						select first window
+					end try
+
+					if paramWindow contains \"horizontally\" or paramWindow contains \"vertically\" or paramWindow contains \"auto\" or paramWindow contains \"same\" then 
+						tell the first window
+							set theProfile to profile name of current session
+							if theProfile does not contains profileName then
+								create tab with profile profileName
+							end if
+						end tell
+						tell current tab of the first window
+							if paramWindow contains \"auto\" then
+								if (count of sessions) is 1 then
+									select first session
+									tell current session to set bexiopayrollaux to split vertically with profile profileName
+								else if (count of sessions) mod 2 is 1 then
+									select last session
+									tell current session to set bexiopayrollaux to split horizontally with profile profileName
+								else
+									select first session
+									tell current session to set bexiopayrollaux to split horizontally with profile profileName
+								end if
+
+								tell current session
+									tell bexiopayrollaux to set name to paramSessionName
+									tell bexiopayrollaux to write text query
+								end tell
+							else
+								select first session
+								tell current session
+									if paramWindow contains \"horizontally\" then
+										set bexiopayrollaux to split horizontally with profile profileName 
+										tell bexiopayrollaux to set name to paramSessionName
+										tell bexiopayrollaux to write text query
+									else if paramWindow contains \"vertically\" then
+										set bexiopayrollaux to split vertically with profile profileName 
+										tell bexiopayrollaux to set name to paramSessionName
+										tell bexiopayrollaux to write text query
+									else
+										set name to paramSessionName
+										write text query
+									end if
+								end tell
+							end if
+						end tell
+					else 
+						tell the first window
+							create tab with profile profileName
+							tell current session to set name to paramSessionName
+							tell current session to write text query
+						end tell
+					end if
+				end tell
+			end run
+		" with parameters {query, profileName, paramSessionName, paramWindow}
+	else
+		run script "
+			on run {query, profileName, paramSessionName}
+				tell application \"iTerm\"
+					activate
+					try
+						select first window
+					on error
+						create window with profile profileName
+						select first window
+					end try
+					tell the first window
+						tell current session to set name to paramSessionName
+						tell current session to write text query
+					end tell
+				end tell
+			end run
+		" with parameters {query, profileName, paramSessionName}
+	end if
+end alfred_script
+
+on theSplit(theString, theDelimiter)
+	set oldDelimiters to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to theDelimiter
+	set theArray to every text item of theString
+	set AppleScript's text item delimiters to oldDelimiters
+	return theArray
+end theSplit</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>B3820465-E788-4B0D-96B5-96EBDF133A45</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>{var:out_trigger}</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>{var:out_workflow}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>314658F6-322F-4305-A18E-A088AF27EA96</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!!</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Run in new tab of iTerm</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>03ABAF05-305E-4772-AFB2-64E3C95ECA83</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>newtab</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>newtab_delay</key>
+					<string>0</string>
+					<key>tab_position</key>
+					<string>newtab</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>973DBF26-ACDF-4700-8011-CD5B34C32410</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>{var:newtab_delay}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>F85400B6-A000-4871-99D1-BE28145E16B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}|||{var:terminal_profile}|||{var:session_name}|||{var:tab_position}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2798749C-AE75-4B1F-A371-8AD0B07FC539</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>iterm</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>iTerm</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>ACC1178D-3AAD-4550-BACA-9E22E39822DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Killed all sessions of {var:profile_name}</string>
+				<key>title</key>
+				<string>iTerm</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>934FD7DD-CD4E-4430-9EA1-CBA8C0E30CD0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set params to theSplit(q, "|||") of me
+	set profileName to first item of params
+	set maxRetries to second item of params as integer
+
+	if application "iTerm2" is running or application "iTerm" is running then
+		run script "
+			on run { profileName, maxRetries }
+				-- make repeat until at least one tabs/session of session named as profileName param is open
+				set i to maxRetries
+				repeat while i &gt; 0 and opened_tabs(profileName) of me
+					try
+						close_all_script(profileName) of me
+					end try
+					set i to i - 1
+				end repeat
+			end run
+			on opened_tabs(profileName)
+				tell application \"iTerm\"
+					activate
+					repeat with theTerm in windows
+						tell theTerm
+							-- to fix the bug when some of tabs are omitted if not the latest was selected
+							tell the last tab to select
+
+							repeat with theTab in tabs
+								repeat with mysession in sessions of theTab
+									select mysession
+									set theSession to current session of theTab
+									set theProfile to profile name of theSession
+									if theProfile contains profileName then return true
+								end repeat
+							end repeat
+						end tell
+					end repeat
+				end tell
+				return false
+			end opened_tabs
+			on close_all_script(profileName)
+				tell application \"iTerm\"
+					activate
+					repeat with theTerm in windows
+						tell theTerm
+							-- to fix the bug when some of tabs are omitted if not the latest was selected
+							tell the last tab to select
+
+							repeat with theTab in tabs
+								set listOfSessionToClose to {}
+								repeat with mysession in sessions of theTab
+									select mysession
+									set theSession to current session of theTab
+									set theProfile to profile name of theSession
+									if theProfile contains profileName then
+										set theId to id of theSession
+										copy theId to end of listOfSessionToClose
+									end if
+								end repeat
+								repeat with theSessioId in listOfSessionToClose
+									set found to false
+									repeat with mysession in sessions of theTab
+										if id of mysession contains theSessioId then
+											select mysession
+											set found to true
+											exit repeat
+										end if
+									end repeat
+									if found then
+										try	
+											select theTab
+											select select theSession
+
+											-- terminate session
+											set id4 to id of current session
+											if id4 contains theSessioId then
+												tell current session to close
+											end if
+										end try
+									end if
+								end repeat
+							end repeat
+						end tell
+					end repeat
+				end tell
+			end close_all_script
+		" with parameters { profileName, maxRetries }
+	end if
+end alfred_script
+
+on theSplit(theString, theDelimiter)
+	set oldDelimiters to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to theDelimiter
+	set theArray to every text item of theString
+	set AppleScript's text item delimiters to oldDelimiters
+	return theArray
+end theSplit</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>E629E28B-F0DF-4AE1-B324-F5DF1E9D7F3B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}|||99</string>
+				<key>variables</key>
+				<dict>
+					<key>profile_name</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C269EDAF-E323-4119-A964-69D4C3ADF767</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!@</string>
+				<key>subtext</key>
+				<string>All of profile</string>
+				<key>text</key>
+				<string>iTerm kill</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>807D2620-2158-4E52-909A-973C35742907</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Killed session {var:session_name}</string>
+				<key>title</key>
+				<string>iTerm</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>67865561-6D99-40C7-9D3F-8DCB5A1E3F01</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>!#</string>
+				<key>subtext</key>
+				<string>One particular session</string>
+				<key>text</key>
+				<string>iTerm kill</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8B86C450-731F-481C-AD27-BDB651EF96B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set params to theSplit(q, "|||") of me
+	set profileName to first item of params
+	set sessionName to second item of params
+	set maxRetries to third item of params as integer
+
+	if application "iTerm2" is running or application "iTerm" is running then
+		run script "
+			on run { profileName, maxRetries, sessionName }
+				set i to maxRetries
+				repeat while i &gt; 0
+					try
+						tell application \"iTerm\"
+							activate
+							repeat with theTerm in windows
+								tell theTerm
+									-- to fix the bug when some of tabs are omitted if not the latest was selected
+									tell the last tab to select
+
+									repeat with theTab in tabs
+										repeat with mysession in sessions of theTab
+											select mysession
+											set theSession to current session of theTab
+											set theSessioId to id of theSession
+											set theName to name of theSession
+											set theProfile to profile name of theSession
+											if theProfile contains profileName and theName contains sessionName then
+												select theTab
+												select select theSession
+												try
+
+													select theTab
+													select select theSession
+													-- terminate session
+													set id4 to id of current session
+													if id4 contains theSessioId then
+														tell current session to close
+													end if
+												end try
+											end if
+										end repeat
+									end repeat
+								end tell
+							end repeat
+						end tell
+					end try
+					set i to i - 1
+				end repeat
+			end run
+		" with parameters { profileName, maxRetries, sessionName }
+	end if
+end alfred_script
+
+on theSplit(theString, theDelimiter)
+	set oldDelimiters to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to theDelimiter
+	set theArray to every text item of theString
+	set AppleScript's text item delimiters to oldDelimiters
+	return theArray
+end theSplit</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>2C933827-2D43-43C5-B2A6-D817EA4BCB90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:terminal_profile}|||{query}|||2</string>
+				<key>variables</key>
+				<dict>
+					<key>session_name</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7260398F-8311-4BFC-BAF8-4E740DB0F281</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>iterm_kill_profile</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>FD86E266-0BC3-4063-A610-0A5EA600BCFE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>iterm_kill_session</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>6B0A1936-373B-442F-A506-54FFDC0BF322</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Small helper workflow to help manage iTerm session and tabs</string>
+	<key>uidata</key>
+	<dict>
+		<key>03ABAF05-305E-4772-AFB2-64E3C95ECA83</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>23D525EB-6528-4252-B2C9-FFDE948FA61F</key>
+		<dict>
+			<key>note</key>
+			<string>auto same
+vertically horizontally</string>
+			<key>xpos</key>
+			<integer>850</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>2798749C-AE75-4B1F-A371-8AD0B07FC539</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>2C933827-2D43-43C5-B2A6-D817EA4BCB90</key>
+		<dict>
+			<key>note</key>
+			<string>Kill session</string>
+			<key>xpos</key>
+			<integer>1000</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>2D468E1C-761A-4382-8310-395B4E70F96F</key>
+		<dict>
+			<key>note</key>
+			<string>same</string>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>314658F6-322F-4305-A18E-A088AF27EA96</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1190</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>67865561-6D99-40C7-9D3F-8DCB5A1E3F01</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1190</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>6B0A1936-373B-442F-A506-54FFDC0BF322</key>
+		<dict>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>720</integer>
+		</dict>
+		<key>7260398F-8311-4BFC-BAF8-4E740DB0F281</key>
+		<dict>
+			<key>xpos</key>
+			<integer>820</integer>
+			<key>ypos</key>
+			<integer>570</integer>
+		</dict>
+		<key>7D0F2564-0A5A-409A-BA17-BA7102C55F08</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>807D2620-2158-4E52-909A-973C35742907</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
+		<key>8B86C450-731F-481C-AD27-BDB651EF96B4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>934FD7DD-CD4E-4430-9EA1-CBA8C0E30CD0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1190</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>990</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>973DBF26-ACDF-4700-8011-CD5B34C32410</key>
+		<dict>
+			<key>note</key>
+			<string>newtab</string>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>ACC1178D-3AAD-4550-BACA-9E22E39822DB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>B3820465-E788-4B0D-96B5-96EBDF133A45</key>
+		<dict>
+			<key>note</key>
+			<string>Handle in iTerm</string>
+			<key>xpos</key>
+			<integer>1000</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>C269EDAF-E323-4119-A964-69D4C3ADF767</key>
+		<dict>
+			<key>xpos</key>
+			<integer>820</integer>
+			<key>ypos</key>
+			<integer>380</integer>
+		</dict>
+		<key>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</key>
+		<dict>
+			<key>note</key>
+			<string>newtab</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1180</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>E629E28B-F0DF-4AE1-B324-F5DF1E9D7F3B</key>
+		<dict>
+			<key>note</key>
+			<string>Kill profile</string>
+			<key>xpos</key>
+			<integer>1000</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>EF0095BE-B90F-47CF-A840-086DB521AAFF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>120</integer>
+		</dict>
+		<key>F85400B6-A000-4871-99D1-BE28145E16B4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>910</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>FD86E266-0BC3-4063-A610-0A5EA600BCFE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>610</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>newtab_delay</key>
+		<string>1</string>
+		<key>out_trigger</key>
+		<string>loop</string>
+		<key>out_workflow</key>
+		<string>self</string>
+		<key>session_name</key>
+		<string>bash</string>
+		<key>tab_position</key>
+		<string>auto</string>
+		<key>terminal_profile</key>
+		<string>Default</string>
+	</dict>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
