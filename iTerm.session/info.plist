@@ -394,19 +394,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>iterm_action</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -429,12 +416,12 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>loop</string>
+				<string>iterm_action</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</string>
+			<string>5161AD66-ED20-4E18-8719-E9BBBA1BDC23</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -450,6 +437,19 @@
 			<string>alfred.workflow.output.playsound</string>
 			<key>uid</key>
 			<string>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>loop</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9632260D-FDDF-46FF-BCB5-FB86CC4C310D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -542,11 +542,12 @@
 	set profileName to second item of params
 	set paramSessionName to third item of params
 	set paramWindow to fourth item of params
+	set paramWaitFor to item 5 of params
 
 
 	if application "iTerm2" is running or application "iTerm" is running then
 		run script "
-			on run {query, profileName, paramSessionName, paramWindow}
+			on run {query, profileName, paramSessionName, paramWindow, paramWaitFor}
 				tell application \"iTerm\"
 					activate
 					try
@@ -575,39 +576,59 @@
 									select first session
 									tell current session to set newauxsession to split horizontally with profile profileName
 								end if
-
-								tell current session
-									tell newauxsession to set name to paramSessionName
-									tell newauxsession to write text query
-								end tell
 							else
 								select first session
 								tell current session
 									if paramWindow contains \"horizontally\" then
 										set newauxsession to split horizontally with profile profileName 
-										tell newauxsession to set name to paramSessionName
-										tell newauxsession to write text query
 									else if paramWindow contains \"vertically\" then
 										set newauxsession to split vertically with profile profileName 
-										tell newauxsession to set name to paramSessionName
-										tell newauxsession to write text query
 									else
+										-- set newauxsession to current session
+										-- QUICKBUGFIX
 										set name to paramSessionName
 										write text query
 									end if
 								end tell
 							end if
+
+							tell current session
+								tell newauxsession to set name to paramSessionName
+								tell newauxsession to write text query
+							end tell
+
+							if the length of paramWaitFor greater than 1 then
+							-- hold on until
+								set a to 0
+								repeat until (a = 1)
+									if (text of newauxsession contains paramWaitFor) then
+										set a to 1
+									end if
+								end repeat
+							end if
 						end tell
 					else 
 						tell the first window
 							create tab with profile profileName
-							tell current session to set name to paramSessionName
-							tell current session to write text query
+							tell current session 
+								set name to paramSessionName
+								write text query
+							end tell
+
+							if the length of paramWaitFor greater than 1 then
+							-- hold on until
+								set a to 0
+								repeat until (a = 1)
+									if (text of current session contains paramWaitFor) then
+										set a to 1
+									end if
+								end repeat
+							end if
 						end tell
 					end if
 				end tell
 			end run
-		" with parameters {query, profileName, paramSessionName, paramWindow}
+		" with parameters {query, profileName, paramSessionName, paramWindow, paramWaitFor}
 	else
 		run script "
 			on run {query, profileName, paramSessionName}
@@ -787,7 +808,7 @@ end theSplit</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}|||{var:terminal_profile}|||{var:session_name}|||{var:tab_position}</string>
+				<string>{query}|||{var:terminal_profile}|||{var:session_name}|||{var:tab_position}|||{var:out_wait_for}</string>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1129,7 +1150,7 @@ end theSplit</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Small helper workflow to help manage iTerm session and tabs</string>
+	<string>Small helper workflow to manage iTerm session and tabs</string>
 	<key>uidata</key>
 	<dict>
 		<key>03ABAF05-305E-4772-AFB2-64E3C95ECA83</key>
@@ -1365,6 +1386,8 @@ end theSplit</string>
 		<string>0</string>
 		<key>out_trigger</key>
 		<string>loop</string>
+		<key>out_wait_for</key>
+		<string>.</string>
 		<key>out_workflow</key>
 		<string>self</string>
 		<key>session_name</key>
