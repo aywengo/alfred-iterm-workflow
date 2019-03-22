@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
+				<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -58,7 +58,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+				<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -689,25 +689,6 @@ end theSplit</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{var:tab_position}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^(auto|vertically|horizontally)+</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>seconds</key>
 				<string>{var:out_delay}</string>
 			</dict>
@@ -721,13 +702,32 @@ end theSplit</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>newtab</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>seconds</key>
-				<string>3</string>
+				<string>{var:newtab_delay}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
-			<string>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</string>
+			<string>F85400B6-A000-4871-99D1-BE28145E16B4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -775,32 +775,32 @@ end theSplit</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string>{var:tab_position}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>newtab</string>
+				<key>seconds</key>
+				<string>3</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
+			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
-			<string>C2C9EB47-D277-4FBE-A2E1-57B194AC2752</string>
+			<string>6D9E70A2-40B0-4C21-85F6-DBB1DD2A14C6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>seconds</key>
-				<string>{var:newtab_delay}</string>
+				<key>inputstring</key>
+				<string>{var:tab_position}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(auto|vertically|horizontally)+</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>F85400B6-A000-4871-99D1-BE28145E16B4</string>
+			<string>23D525EB-6528-4252-B2C9-FFDE948FA61F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1169,14 +1169,14 @@ end theSplit</string>
 			<key>xpos</key>
 			<integer>860</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>360</integer>
 		</dict>
 		<key>2798749C-AE75-4B1F-A371-8AD0B07FC539</key>
 		<dict>
 			<key>xpos</key>
 			<integer>730</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>370</integer>
 		</dict>
 		<key>2C933827-2D43-43C5-B2A6-D817EA4BCB90</key>
 		<dict>
@@ -1199,14 +1199,16 @@ end theSplit</string>
 		<key>314658F6-322F-4305-A18E-A088AF27EA96</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1230</integer>
+			<integer>1250</integer>
 			<key>ypos</key>
 			<integer>250</integer>
 		</dict>
 		<key>4765F52B-4B74-406F-9B75-ED5FAECF3F4C</key>
 		<dict>
+			<key>note</key>
+			<string>out_delay</string>
 			<key>xpos</key>
-			<integer>1160</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>280</integer>
 		</dict>
@@ -1220,7 +1222,7 @@ end theSplit</string>
 		<key>67865561-6D99-40C7-9D3F-8DCB5A1E3F01</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1190</integer>
+			<integer>1250</integer>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
@@ -1236,7 +1238,7 @@ end theSplit</string>
 			<key>xpos</key>
 			<integer>930</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>360</integer>
 		</dict>
 		<key>7260398F-8311-4BFC-BAF8-4E740DB0F281</key>
 		<dict>
@@ -1279,12 +1281,12 @@ end theSplit</string>
 			<key>xpos</key>
 			<integer>880</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 		</dict>
 		<key>934FD7DD-CD4E-4430-9EA1-CBA8C0E30CD0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1190</integer>
+			<integer>1250</integer>
 			<key>ypos</key>
 			<integer>390</integer>
 		</dict>
@@ -1336,7 +1338,7 @@ end theSplit</string>
 			<key>xpos</key>
 			<integer>860</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>280</integer>
 		</dict>
 		<key>DB8485A6-673A-4B4C-8C31-F29F0CB6E26E</key>
 		<dict>
@@ -1368,7 +1370,7 @@ end theSplit</string>
 			<key>xpos</key>
 			<integer>930</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>280</integer>
 		</dict>
 		<key>FD86E266-0BC3-4063-A610-0A5EA600BCFE</key>
 		<dict>
